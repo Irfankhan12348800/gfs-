@@ -1,0 +1,664 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ 
+    <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+            <a href="#" class="flex items-center">
+                <img src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/GFSlogo.png" class="h-6 mr-3 sm:h-9" alt="Landwind Logo">
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+            <div class="flex items-center lg:order-2">
+                <div class="hidden mt-2 mr-4 sm:inline-block">
+                    <span></span>
+                </div>
+    
+                <a href="https://themesberg.com/product/tailwind-css/landing-page"
+                    class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
+                <button data-collapse-toggle="mobile-menu-2" type="button"
+                    class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu-2" aria-expanded="true">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Company</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Features</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+
+
+<br>
+
+
+    <div class="relative h-screen w-full">
+        <img src="https://gfsbuilder.com/wp-content/uploads/2023/10/ftr-3.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-sm">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <h1 class="text-4xl text-red font-bold">Your Dream Space</h1>
+          <center> <p class="text-xl text-white mt-4">GFS builders and developers are serving low-cost housing to their customers by conveying comforts and high-standard utilities to their clients. So, everyone can attain their dream house for themselves and turn their visions into reality with GFS. GFS Builders and Developers are best construction company in Pakistan. We aim to facilitate luxurious and affordable housing services to our customers with comfort. So, avail this best opportunity to attain your dream house for yourself and turn your living desires into achievements with GFS Builders and Developers in Pakistan.</p></center> 
+        </div>
+    </div>
+
+    
+
+
+    <section class="sm:mt-6 lg:mt-8 mt-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div
+            class="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
+            <div class="sm:text-center lg:text-left">
+                <h1 class="text-4xl tracking-tight font-extrabold text--800 sm:text-5xl md:text-6xl">
+                    <span class="block xl:inline">Company </span> <span class="block text-red-600 xl:inline">introduction</span>
+                    <span class="block text-red-600 xl:inline">.</span>
+                </h1>
+                <p
+                    class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                    GFS Builders and Developers are among the leading and diversified builders, well-known for their projects across various cities in Pakistan. They demonstrate a commitment to endless success through effective business management strategies. Under the dedicated leadership of Chief Executive Officer Mr. Irfan Wahid, who has over six years of executive-level experience in the United Kingdom and the United States, the company continually improves and delivers outstanding performance in the real estate market.
+
+                    Mr. Irfan Wahid is recognized for his principles and integrity, inspiring innovation in Pakistan’s real estate market, making it more accessible and convenient for all. His leadership qualities led him to be elected as the vice chairman of the Memon Supreme Council and as a trusted member of the Association of Builders and Developers (ABAD). With an MBA from the University of Washington and real estate courses from the London School of Economics (LSE)
+                    
+                    he showcases innovative residential development through design, craftsmanship, and responsiveness to customer needs <br><br>At GFS Builders and Developers in Pakistan, we believe in two important matters, integrity and trustability. These are the foundation of our company’s fame. We do not just construct houses and neighborhoods, we produce communities. Our systems are top-notch, and we make sure our customers can trust us every step of the procedure. We are committed to delivering luxurious living spaces at affordable prices. we also offer flexible payment plans to make having a home easier for everyone. Your satisfaction is our priority so we secure first at the top 10 Builders in Pakistan. Your dream house is possible to avail with GFS Builders and Developers. – Irfan Wahid
+
+
+                    
+                </p>
+                <!-- Button Section -->
+                <!-- <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                    <div class="rounded-md shadow">
+                        <a href="#"
+                            class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10">
+                            
+                        </a>
+                    </div>
+                    <div class="mt-3 sm:mt-0 sm:ml-3">
+                        <a href="#"
+                            class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                            
+                        </a>
+                    </div>
+                </div> -->
+                <!-- End of Button Section -->
+            </div>
+    
+            <!--   Image Section     -->
+            <div class="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4">
+                <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://gfsbuilders.com.pk/wp-content/uploads/2024/04/Message-From-Our-CEO-768x1147.png" alt="">
+            </div>
+            <!--   End of Image Section     -->
+        </div>
+    
+    </section>
+
+
+    <CEnter><h1 class="text-4xl tracking-tight font-extrabold text--800 sm:text-5xl md:text-6xl">
+        <span class="block xl:inline">Features</span> <span class="block text-red-600 xl:inline">Projects</span>
+        <span class="block text-red-600 xl:inline">.</span>
+    </h1>
+    </CEnter>
+    <br>
+
+    <div class="max-w-2xl mx-auto">
+
+        <div id="default-carousel" class="relative rounded-lg overflow-hidden shadow-lg" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-80 md:h-96" data-carousel-inner>
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/7-wonder-city-1.webp"
+                        class="object-cover w-full h-full" alt="Slide 1">
+                    <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl font-semibold text-white md:text-2xl dark:text-gray-800">First Slide</span>
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/bolan-platinum.webp"
+                        class="object-cover w-full h-full" alt="Slide 2">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/DHA-1.webp"
+                        class="object-cover w-full h-full" alt="Slide 3">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/mega-tower.webp"
+                        class="object-cover w-full h-full" alt="Slide 3">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/Mehan-gold.webp"
+                        class="object-cover w-full h-full" alt="Slide 3">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="flex absolute bottom-5 left-1/2 z-30 -translate-x-1/2 space-x-2" data-carousel-indicators>
+                <button type="button" class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+                <button type="button" class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+                <button type="button" class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+                data-carousel-prev>
+                <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+            <button type="button"
+                class="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+                data-carousel-next>
+                <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    
+        <p class="mt-5 text-center text-gray-700 dark:text-gray-300">
+           
+            <a class="text-blue-600 hover:underline" href="https://flowbite.com/docs/getting-started/introduction/"
+                target="_blank">
+               
+            </a>
+        </p>
+        <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    
+    </div>
+    
+
+
+
+
+    <section id="features" class="container space-y-6 bg-slate -50 py-8 mx-auto md:py-12 lg:py-24">
+        <div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+            <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">What Can We Offer?</h2>
+            <p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"></p>
+        </div>
+        <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+            <div class="relative overflow-hidden rounded-lg border bg-background p-2">
+                <div class="flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal">
+                        <polyline points="4 17 10 11 4 5"></polyline>
+                        <line x1="12" y1="19" x2="20" y2="19"></line>
+                    </svg>
+                    <div class="space-y-2">
+                        <h3 class="font-bold">Developing Land</h3>
+                        <p class="text-sm text-muted-foreground">Land development involves constructing buildings or altering the use of land, including infrastructure and zoning changes. At GFS </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-lg border bg-background p-2">
+                <div class="flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                        <line x1="3" y1="15" x2="21" y2="15"></line>
+                        <line x1="9" y1="3" x2="9" y2="21"></line>
+                        <line x1="15" y1="3" x2="15" y2="21"></line>
+                    </svg>
+                    <div class="space-y-2">
+                        <h3 class="font-bold">Property</h3>
+                        <p class="text-sm text-muted-foreground">Residential and commercial property implies any improved or unchanged genuine property, or piece thereof…</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-lg border bg-background p-2">
+                <div class="flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sliders-horizontal">
+                        <line x1="21" y1="4" x2="14" y2="4"></line>
+                        <line x1="10" y1="4" x2="3" y2="4"></line>
+                        <line x1="21" y1="12" x2="12" y2="12"></line>
+                        <line x1="8" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="20" x2="16" y2="20"></line>
+                        <line x1="12" y1="20" x2="3" y2="20"></line>
+                        <line x1="14" y1="2" x2="14" y2="6"></line>
+                        <line x1="8" y1="10" x2="8" y2="14"></line>
+                        <line x1="16" y1="18" x2="16" y2="22"></line>
+                    </svg>
+                    <div class="space-y-2">
+                        <h3 class="font-bold">Housing Societies</h3>
+                        <p class="text-sm text-muted-foreground">We specialize in building homes for families within housing communities. Our homes are carefully constructed to maximize</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-lg border bg-background p-2">
+                <div class="flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-minus">
+                        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="9" y1="15" x2="15" y2="15"></line>
+                    </svg>
+                    <div class="space-y-2">
+                        <h3 class="font-bold">Industrial Land</h3>
+                        <p class="text-sm text-muted-foreground">We specialize in constructing commercial spaces tailored to various businesses, including offices, service centers, banks,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-lg border bg-background p-2">
+                <div class="flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-input">
+                        <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <path d="M2 15h10"></path>
+                        <path d="m9 18 3-3-3-3"></path>
+                    </svg>
+                    <div class="space-y-2">
+                        <h3 class="font-bold">Commercial Lands</h3>
+                        <p class="text-sm text-muted-foreground">Commercial lands refer to plots specifically intended for business purposes, such as retail shops or office spaces. These properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden rounded-lg border bg-background p-2">
+                <div class="flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette">
+                        <circle cx="13.5" cy="6.5" r=".5"></circle>
+                        <circle cx="17.5" cy="10.5" r=".5"></circle>
+                        <circle cx="8.5" cy="7.5" r=".5"></circle>
+                        <circle cx="6.5" cy="12.5" r=".5"></circle>
+                        <path
+                            d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h 1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z">
+                        </path>
+                    </svg>
+                    <div class="space-y-2">
+                        <h3 class="font-bold">Amenity Lands</h3>
+                        <p class="text-sm text-muted-foreground">Amenity Land is the piece of the Lakes District Land involving the Notch Summit, other Regional Parkland, and Community Parkland.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <CEnter><h1 class="text-4xl tracking-tight font-extrabold text--800 sm:text-5xl md:text-6xl">
+        <span class="block xl:inline"></span> <span class="block text-red-600 xl:inline">Projects Gallery</span>
+        <span class="block text-red-600 xl:inline">.</span>
+    </h1>
+    </CEnter>
+    <br>
+
+
+<center>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 p-4 max-w-[400px] md:max-w-[600px] place-items-center">
+        <img class="hover:opacity-75" src="https://gfsbuilders.com.pk/wp-content/uploads/2024/04/1.jpg">
+        <img class="hover:opacity-75" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/ntr-4.webp">
+        <img class="hover:opacity-75" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/ntr-1.webp">
+        <img class="hover:opacity-75" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/ntr-2.webp">
+        <img class="hover:opacity-75" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/ntr-3.webp">
+       
+    </div>
+
+
+
+</center>
+
+
+
+
+
+
+<div class="bg-gray-100 h-screen">
+    <div class="py-10 max-w-screen-lg mx-auto">
+        <div class="text-center mb-16">
+            <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
+                THE TEAM
+            </p>
+            <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+                Our<span class="text-red-600"> Directors</span>
+            </h3>
+        </div>
+
+
+        <div class="grid grid-cols-3 col-gap-10">
+
+            <div class="text-center bg-white">
+                <img class="w-100" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/sdds.webp">
+                <div class="p-4">
+                    <div class="text-md">
+                        <a href="#"
+                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Mansoor
+                            Wahid</a>
+                        <p class="text-gray-500 uppercase text-sm">Managing Director</p>
+                    </div>
+                    <div class="my-4 flex justify-center items-center">
+                        <a href="#">
+
+                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <a href="#">
+                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
+                                xml:space="preserve">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg></a>
+
+                        <a href="#">
+                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
+                                xml:space="preserve">
+                                <g>
+                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
+		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
+		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
+                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
+		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
+		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
+                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
+		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
+                                </g>
+                            </svg></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center bg-white">
+                <img class="w-100" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/sd.webp">
+                <div class="p-4">
+                    <div class="text-md">
+                        <a href="#"
+                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Irfan
+                            Wahid</a>
+                        <p class="text-gray-500 uppercase text-sm">Chief Executive &amp; Officer </p>
+                    </div>
+                    <div class="my-4 flex justify-center items-center">
+                        <a href="#">
+
+                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <a href="#">
+                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
+                                xml:space="preserve">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg></a>
+
+                        <a href="#">
+                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
+                                xml:space="preserve">
+                                <g>
+                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
+		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
+		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
+                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
+		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
+		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
+                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
+		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
+                                </g>
+                            </svg></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center bg-white">
+                <img class="w-100" src="https://gfsbuilders.com.pk/wp-content/uploads/2023/09/Mohsin-Hi-Res-1024x1024.webp">
+                <div class="p-4">
+                    <div class="text-md">
+                        <a href="#"
+                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Mohsin
+                            Wahid</a>
+                        <p class="text-gray-500 uppercase text-sm">Director Sales & Marketing</p>
+                    </div>
+                    <div class="my-4 flex justify-center items-center">
+                        <a href="#">
+
+                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <a href="#">
+                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
+                                xml:space="preserve">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg></a>
+
+                        <a href="#">
+                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
+                                xml:space="preserve">
+                                <g>
+                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
+		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
+		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
+                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
+		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
+		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
+                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
+		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
+                                </g>
+                            </svg></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="min-h-screen bg-black-800 py-6 flex flex-col justify-center sm:py-12">
+    <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+        <div
+            class="absolute inset-0 bg-gradient-to-r from-red-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+        </div>
+        <div class="text-black relative px-4 py-10 bg-indigo-400 shadow-lg sm:rounded-3xl sm:p-20">
+
+            <div class="text-center pb-6">
+                <h1 class="text-3xl">Contact Us!</h1>
+
+                <p class="text-red-300">
+                    Fill up the form below to send us a message.
+                </p>
+            </div>
+
+            <form>
+                <form action="https://formsubmit.co/your@email.com" method="POST">
+                <input
+                        class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-black-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="text" placeholder="Name" name="name">
+
+                <input
+                        class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-red-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="email" placeholder="Email" name="email">
+
+                <input
+                        class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="text" placeholder="Subject" name="_subject">
+
+                <textarea
+                        class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        type="text" placeholder="Type your message here..." name="message" style="height: 121px;"></textarea>
+
+                <div class="flex justify-between">
+                    <input
+                        class="shadow black-600 hover:black-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="submit" value="Send ➤">
+                    <input
+                        class="shadow bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="reset">
+                </div>
+            </form>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"35dce61c11f77a98f9a4f09fcf3d3630e","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+
+
+
+
+
+
+  
+</body>
+</html>
